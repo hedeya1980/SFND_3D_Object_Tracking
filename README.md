@@ -12,10 +12,10 @@ In this final project, I implemented the missing parts in the schematic. To do t
 
 ## Code Guide
 ### FP.1 Match 3D Objects
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+Task | Description | Details 
+--- | --- | --- | --- 
+Seconds | 301 | 283 
+Seconds | 301 | 283 
 
 ## Demo
 ![Demo](https://github.com/hedeya1980/Images/raw/main/3D_object_tracking.gif)
