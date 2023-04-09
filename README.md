@@ -10,8 +10,7 @@ In this final project, I implemented the missing parts in the schematic. To do t
 3. I then proceeded to do the same using the camera, which requires to first associate keypoint matches to regions of interest and then to compute the TTC based on those matches. 
 4. And lastly, I conducted various tests with the framework. My goal was to identify the most suitable detector/descriptor combination for TTC estimation and also to search for problems that can lead to faulty measurements by the camera or Lidar sensor. In the last course of this Nanodegree, The Kalman filter, will be used a great way to combine the two independent TTC measurements into an improved version which is much more reliable than a single sensor alone can be.
 
-## Code Guide
-### FP.1 Match 3D Objects
+## Project Tasks/Implementation
 Task | Description | Details
 --- | --- | ---
 FP.1 Match 3D Objects | Implement the method "matchBoundingBoxes", which takes as input both the previous and the current data frames and provides as output the ids of the matched regions of interest (i.e. the boxID property). Matches must be the ones with the highest number of keypoint correspondences. | Code is at camFusion_Student.cpp (lines 351:391)
