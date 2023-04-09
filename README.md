@@ -15,7 +15,9 @@ In this final project, I implemented the missing parts in the schematic. To do t
 Task | Description | Details
 --- | --- | ---
 FP.1 Match 3D Objects | Implement the method "matchBoundingBoxes", which takes as input both the previous and the current data frames and provides as output the ids of the matched regions of interest (i.e. the boxID property). Matches must be the ones with the highest number of keypoint correspondences. | Code is at camFusion_Student.cpp (lines 351:391)
-Seconds | 301 | 283
+FP.2 Compute Lidar-based TTC |  | computeTTCLidar function is at camFusion_Student.cpp (lines 321:348). There are other helper functions called by computeTTCLidar as well.
+FP.3 Associate Keypoint Correspondences with Bounding Boxes | --- | clusterKptMatchesWithROI function is at camFusion_Student.cpp (lines 195:208)
+
 
 ## Demo
 ![Demo](https://github.com/hedeya1980/Images/raw/main/3D_object_tracking.gif)
