@@ -14,7 +14,13 @@ In this final project, I implemented the missing parts in the schematic. To do t
 ### FP.1 Match 3D Objects
 Task | Description | Details
 --- | --- | ---
-Seconds | 301 | 283
+FP.1 Match 3D Objects | Implement the method 
+"matchBoundingBoxes", which takes as 
+input both the previous and the current data 
+frames and provides as output the ids of the 
+matched regions of interest (i.e. the boxID 
+property). Matches must be the ones with the 
+highest number of keypoint correspondences. | Code is at camFusion_Student.cpp (lines 351:391)
 Seconds | 301 | 283
 
 ## Demo
